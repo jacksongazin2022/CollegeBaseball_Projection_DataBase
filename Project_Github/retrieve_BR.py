@@ -2,7 +2,8 @@
 Author: Jackson Gazin
 Baseball_Project
 File: retrieve_BR
-This file will retrieve the baseball reference key for each player name
+This file takes in as input a table of first names and last names of college baseball players and will return and append each one's 
+baseball reference ID to the table. I used Chadwick Bureau's College Baseball Database.
 """
 import numpy as np
 import matplotlib.pyplot as plt
