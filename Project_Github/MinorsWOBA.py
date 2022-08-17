@@ -2,7 +2,8 @@
 Author: Jackson Gazin
 Baseball_Project
 File: MinorsWOBA.py
-This program will take your database that has baseball reference keys as an input, and return the total Minor League WOBA
+Run this program after retrieving a key for each desired player. It will take the table which includes the first and last name
+of the desired college baseball player along with their BBREF key and return their total Minor League WOBA.
 """
 
 import numpy as np
@@ -13,7 +14,7 @@ import sys
 import requests
 import quandl
 
-#going to need to fix this one so it works with the new updated stuff
+
 def return_key_list(database):
     return list(database['Ref_Key'])
 def Pro_WOBA_Data_by_key(database,key_list):
