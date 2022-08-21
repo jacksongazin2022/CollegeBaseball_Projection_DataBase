@@ -3,7 +3,8 @@ Author: Jackson Gazin
 Baseball_Project
 File: retrieve_BR
 This file takes in as input a table of first names and last names of college baseball players and will return and append each one's 
-baseball reference ID to the table. I used Chadwick Bureau's College Baseball Database.
+baseball reference ID to the table. I used Chadwick Bureau's College Baseball Database. This database is particularly helpful if you 
+want to use the combined table for predictive purposes as Bureau's database includes college stats as well.
 """
 import numpy as np
 import matplotlib.pyplot as plt
